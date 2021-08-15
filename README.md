@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/Readme/neverstoplearningHeader.png" alt="Header Maratona Discover"/>
+  <img src="./images/neverstoplearningHeader.png" alt="Header Marathon Discover"/>
 </div>
 
 <div>
