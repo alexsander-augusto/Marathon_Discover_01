@@ -45,7 +45,7 @@
         </section>
         <section id="transaction">
             <h2 class="sr-only">Transaction</h2>
-            <a onclick="Modal.open()" href="#" class="button new">+ New Transaction</a>
+            <a onclick="Modal.openClose()" href="#" class="button new">+ New Transaction</a>
             <table id="data-table">
                 <thead>
                     <tr>
@@ -55,25 +55,7 @@
                         <th></th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td class="description">Rent</td>
-                        <td class="expense">- $ 1500,00</td>
-                        <td class="date">08/15/2021</td>
-                        <td><img src="./assets/minus.svg" alt="Remove Transaction"></td>
-                    </tr>
-                    <tr>
-                        <td class="description">Website creation</td>
-                        <td class="income">$ 5000,00</td>
-                        <td class="date">08/15/2021</td>
-                        <td><img src="./assets/minus.svg" alt="Remove Transaction"></td>
-                    </tr>
-                    <tr>
-                        <td class="description">Internet</td>
-                        <td class="expense">- $ 200,00</td>
-                        <td class="date">08/15/2021</td>
-                        <td><img src="./assets/minus.svg" alt="Remove Transaction"></td>
-                    </tr>
+                <tbody>                    
                 </tbody>
             </table>
         </section>
@@ -98,7 +80,7 @@
                         <input type="date" id="date" name="date" placeholder="01/01/2021">
                     </div>
                     <div class="input-group actions">
-                        <a onclick="Modal.close()" href="#" class="button cancel">Cancel</a>
+                        <a onclick="Modal.openClose()" href="#" class="button cancel">Cancel</a>
                         <button type="submit">Save</button>
                     </div>
                 </form>
