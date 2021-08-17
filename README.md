@@ -42,8 +42,7 @@
 <h1>🚧 Next Steps</h1>
 <hr>
 
-  * Data Base
-  * Transactions Filter
+------------------
 
 <hr>
 
