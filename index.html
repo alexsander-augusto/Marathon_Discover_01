@@ -26,21 +26,21 @@
                     <span>Incomes</span>
                     <img src="./assets/income.svg" alt="Income image">
                 </h3>
-                <p>$ 5.000,00</p>
+                <p id="incomeDisplay">$0.00</p>
             </div>
             <div class="card">
                 <h3>
                     <span>Expenses</span>
                     <img src="./assets/expense.svg" alt="Expense image">
                 </h3>
-                <p>$ 1.700,00</p>
+                <p id="expenseDisplay">$0.00</p>
             </div>
             <div class="card total">
                 <h3>
                     <span>Total</span>
                     <img src="./assets/total.svg" alt="Total image">
                 </h3>
-                <p>$ 3.300,00</p>
+                <p id="totalDisplay">$0.00</p>
             </div>
         </section>
         <section id="transaction">
@@ -64,7 +64,7 @@
         <div class="modal">
             <div id="form">
                 <h2>New Transaction</h2>
-                <form action="">
+                <form action="" onsubmit="Form.submit(event)">
                     <div class="input-group">
                         <label class="sr-only" for="description">Description</label>
                         <input type="text" id="description" name="description" placeholder="Description">
@@ -72,8 +72,8 @@
                     <div class="input-group">
                         <label class="sr-only" for="amount">Value</label>
                         <input type="number" step="0.01" id="amount" name="amount" placeholder="0,00">
-                        <small class="help">Use o sinal - (negativo) para despesas e ,
-                            (virgula) para casas decimais.</small>
+                        <small class="help">Use the - (negative) sign for expenses and . 
+                        (dot) to decimal places.</small>
                     </div>
                     <div class="input-group">
                         <label class="sr-only" for="date">Date</label>
